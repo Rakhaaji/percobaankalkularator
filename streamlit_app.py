@@ -109,7 +109,7 @@ elif page == "Kalkulator AQL":
         # Input
     lot_size = st.number_input("Ukuran Lot", min_value=1, value=500)
     sample_size = st.number_input("Ukuran Sampel", min_value=1, value=50)
-    general_inspection = st.number_input("Ukuran genral inspection", min_value=1,2,3, value=1,2,3)
+    general_inspection = st.number_input("Ukuran genral inspection", min_value=1, value=3)
     aql = st.number_input("Nilai AQL (%)", min_value=0.01, value=1.0, format="%.2f")
     defects_found = st.number_input("Jumlah Cacat yang Ditemukan", min_value=0, value=0)
 
