@@ -112,7 +112,7 @@ if page == "Beranda":
         """, unsafe_allow_html=True)
 
     st.markdown("---")
-    st.success("👈 Gunakan menu di sebelah kiri untuk memulai kalkulasi AQL.")
+    st.success("👈 Gunakan menu di pojok kiri atas untuk memulai kalkulasi AQL.")
     
     st.markdown("### 👩🏻‍🔬👨🏻‍🔬 Kelompok Pengembang")
     st.markdown("""
