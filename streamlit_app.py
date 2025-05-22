@@ -8,7 +8,7 @@ st.set_page_config(page_title="AQL Checker", layout="centered")
 st.sidebar.title("Menu")
 page = st.sidebar.radio("Pilih Halaman", ["Beranda", "Kalkulator AQL"])
 
-def hitung_acceptance(sample_size, aql_percent):    tambakhan syntax general inspection level  
+def hitung_acceptance(sample_size, aql_percent):     
     aql = aql_percent / 100
     return math.floor(sample_size * aql + 0.5)
 
